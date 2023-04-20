@@ -1,0 +1,128 @@
+/* styling all the navigation buttons using a class */
+ .NavBar {
+     display: flex;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: center;
+     background-color: yellow;
+     position: sticky;
+     top:0%;
+}
+/* editing the hidden navbar option */
+ .NavBarHidden{
+     top:0%;
+     width: 0px;
+     height: 0px;
+     font-size: 0px;
+}
+/* editing the title */
+ #title {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 50px;
+     padding: 0px;
+     margin: 0px;
+     font-style: Cursive;
+}
+/*editing the navigation button when not hovered over */
+ .navBtn {
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+     color: #e9c46a;
+     background-color: #264653;
+     height: 50px;
+     width: 20%;
+}
+/*editing the naviation button when hovered over */
+ .navBtn:hover {
+     background-color: #e9c46a;
+     color: #264653;
+     cursor: pointer;
+}
+/* editing the title image using id so it doesn't get affected by the other images options */
+ #titleImage{
+     width: 10000px;
+     height: 640px ;
+     display: flex;
+     align-items: center;
+     align-items: center;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     min-width: 50%;
+     min-width: 50%;
+     max-width: 100%;
+     max-height: 100% ;
+    /* display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     height: 90%;
+     */
+}
+/*editing all the images in general */
+ img {
+     width: 628px;
+     height: 353px ;
+     display: flex;
+     align-items: center;
+     align-items: center;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     min-width: 50%;
+     min-width: 50%;
+     max-width: 50%;
+     max-height: 50% ;
+}
+/* editing the scroll to top button using and id when not hovered over */
+ #scrollToTop {
+     position: fixed;
+     right: 10px;
+     bottom: 10px;
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     color: #ffd166;
+     background-color: #073b4c;
+     outline: none;
+     cursor: pointer;
+}
+/* editing the scroll to top button when hovered over */
+ #scrollToTop:hover {
+     position: fixed;
+     right: 10px;
+     bottom: 10px;
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     color: #073b4c;
+     background-color: #ffd166;
+     outline: none;
+     cursor: pointer;
+}
+
+/* styling the unhighlighted section */
+ .section {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     border: 5px solid #2D61 90;
+     background-color: #050102;
+     color: #6C8B9F;
+}
+
+/* styling the active class which will be added to the secion in view */
+ .active {
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+     border: 5px solid #000;
+     background-color: yellow;
+     color: green;
+}
